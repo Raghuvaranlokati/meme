@@ -85,7 +85,7 @@ export default function Home() {
       {/* Bio Section */}
       <div className="text-center space-y-4 px-4 sm:px-0">
         <p className="text-lg sm:text-xl">Passionate about creating and sharing memes.</p>
-        <p className="text-lg sm:text-xl">Love to bring smiles to people's faces.</p>
+        <p className="text-lg sm:text-xl">Love to bring smiles to people&apos;s faces.</p>
         <p className="text-lg sm:text-xl">Always looking for the next big meme trend.</p>
       </div>
       

@@ -95,13 +95,13 @@ export default function Home() {
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
           {/* Example Memes */}
           <a href="https://www.instagram.com/avesham_memes" target="_blank" rel="noopener noreferrer" onClick={handleClickMeme}>
-            <Image src="/logo.jpg" width={100} height={100} alt="Meme 1" className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-md cursor-pointer" />
+            <Image src="/meme.jpg" width={100} height={100} alt="Meme 1" className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-md cursor-pointer" />
           </a>
           <a href="https://www.instagram.com/avesham_memes" target="_blank" rel="noopener noreferrer" onClick={handleClickMeme}>
-            <Image src="/logo.jpg" width={100} height={100} alt="Meme 2" className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-md cursor-pointer" />
+            <Image src="/meme.jpg" width={100} height={100} alt="Meme 2" className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-md cursor-pointer" />
           </a>
           <a href="https://www.instagram.com/avesham_memes" target="_blank" rel="noopener noreferrer" onClick={handleClickMeme}>
-            <Image src="/logo.jpg" width={100} height={100} alt="Meme 3" className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-md cursor-pointer" />
+            <Image src="/meme.jpg" width={100} height={100} alt="Meme 3" className="w-full h-32 sm:h-48 object-cover rounded-lg shadow-md cursor-pointer" />
           </a>
           {/* Add more memes as needed */}
         </div>

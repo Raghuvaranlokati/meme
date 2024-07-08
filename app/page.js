@@ -34,7 +34,7 @@ const useCountUp = (end, duration) => {
 };
 
 export default function Home() {
-  const followers = useCountUp(50, 2000); // Adjust the numbers as needed
+  const followers = useCountUp(53, 2000); // Adjust the numbers as needed
   const likes = useCountUp(123, 2000);
   const posts = useCountUp(3, 2000);
 

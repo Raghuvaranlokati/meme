@@ -36,7 +36,7 @@ const useCountUp = (end, duration) => {
 export default function Home() {
   const followers = useCountUp(63, 2000); // Adjust the numbers as needed
   const likes = useCountUp(1200, 4000);
-  const posts = useCountUp(7, 2000);
+  const posts = useCountUp(10, 2000);
 
   // Function to handle clicking on a meme (redirecting to Instagram)
   const handleClickMeme = () => {
